@@ -1,10 +1,8 @@
-package com.nikitagupta.employeemanager;
+package com.nikitagupta.employeemanager.resource;
 
 import com.nikitagupta.employeemanager.model.Employee;
 import com.nikitagupta.employeemanager.service.EmployeeService;
-import org.springframework.data.repository.query.Param;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
